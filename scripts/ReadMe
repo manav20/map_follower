@@ -1,0 +1,27 @@
+wall_follower_1.py
+	tuned PID values
+	estimation implemented
+	angle calc needs work
+	scale the x_cor accoring to PID, taking max dist from wall
+	
+imu_1.py
+	reading IMU values
+	values still have to be sorted into ax, ay, az
+imu_2.py
+	reading values done.
+	calc dist and vel done.
+imu_3.py
+	new formatting working, finally
+	ax to vx and dx implemented.
+	some filter yet to implement
+	
+race_1.py
+	using car model conversion for velocity to estimate position and apply PID
+	no imu included
+	
+%%%%%%%%%%%%%%%%%%%%%%%%
+Car Data:
+
+Battery@(Motor) @ 8.37
+	512 - 4.0 - 1.9 sec   ::      2m/s		
+	640 - 4.8m - 1.5 sec	 ::    3.2m/s	
