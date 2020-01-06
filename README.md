@@ -24,18 +24,22 @@ The waypoints marked by the user are in `map_frame` and the IMU readings obtaine
 ### [Ackermann Simulator](https://github.com/manav20/Control-Systems/blob/master/Ackermann_Simulator.m) 
 The above is a matlab script which simulates a PD controlled ackermann steered vehicle. This script can be used to understand and visualize how and which paramters to change.
 ## Example 1 - Hallway
-### configure map_server
+### 1. Configure map_server
 Upload hallmap.pgm and hallmap.yaml in the resource folder. </br>
 Update hallmap.launch with the address of hallmap.yaml file.
 <!-- insert map picture -->
-### mark waypoints
+### 2. Mark waypoints
+Launch map
+```
+roslaunch map_follower hallmap.launch 
+```
 Run the waypoint.py for waypoint generation.
 ```
 rosrun map_follower waypoint.py
 ```
 This script allows the user to use rviz for selecting waypoints, visualize the path and save the waypoints in a CSV file.
 <!-- insert rviz picture  -->
-### run the code
+### 3. Run the code
 In a new terminal execute the run.py file
 ```
 rosrun map_follower run.py
