@@ -27,14 +27,14 @@ The above is a matlab script which simulates a PD controlled ackermann steered v
 ### 1. Configure map_server
 Upload `hallmap.pgm` and `hallmap.yaml` in the resource folder. </br>
 Update `hallmap.launch` with the address of `hallmap.yaml` file.
+![](demo/hallmap_1.jpg)
 <!-- insert map picture -->
 ### 2. Mark waypoints
 Launch map
 ```
 roslaunch map_follower hallmap.launch 
 ```
-![](demo/hallmap_1.jpg)
-<!--- <img src="./demo/hallmap_1.jpg" width="10" height="100"> --->
+<!--- <img src="./demo/hallmap_1.jpg" width="100" height="100"> --->
 Run the waypoint.py for waypoint generation.
 ```
 rosrun map_follower waypoint.py
