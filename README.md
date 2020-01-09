@@ -33,6 +33,8 @@ Launch map
 ```
 roslaunch map_follower hallmap.launch 
 ```
+![](demo/hallmap_1.jpg)
+<!--- <img src="./demo/hallmap_1.jpg" width="10" height="100"> --->
 Run the waypoint.py for waypoint generation.
 ```
 rosrun map_follower waypoint.py
