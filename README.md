@@ -25,8 +25,8 @@ The waypoints marked by the user are in `map_frame` and the IMU readings obtaine
 The above is a matlab script which simulates a PD controlled ackermann steered vehicle. This script can be used to understand and visualize how and which paramters to change.
 ## Example 1 - Hallway
 ### 1. Configure map_server
-Upload hallmap.pgm and hallmap.yaml in the resource folder. </br>
-Update hallmap.launch with the address of hallmap.yaml file.
+Upload `hallmap.pgm` and `hallmap.yaml` in the resource folder. </br>
+Update `hallmap.launch` with the address of `hallmap.yaml` file.
 <!-- insert map picture -->
 ### 2. Mark waypoints
 Launch map
