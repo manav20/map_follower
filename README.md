@@ -21,7 +21,7 @@ The code consists of two PD control loops which run at 150Hz. The setpoint for b
 ### Tranforming waypoints
 The waypoints marked by the user are in `map_frame` and the IMU readings obtained are in `car_frame`, we thus transform the "waypoint in consideration" as per the location of the car. This makes it easier to fuse the IMU values.
 ## Tuning PD parameters
-### [Ackermann Simulator](https://github.com/manav20/Control-Systems/blob/master/Ackermann_Simulator.m) 
+### [Ackermann Simulator](https://github.com/manav20/ackermann-steer/blob/master/Ackermann_Simulator.m) 
 The above is a matlab script which simulates a PD controlled ackermann steered vehicle. This script can be used to understand and visualize how and which paramters to change.
 ## Example 1 - Hallway
 ### 1. Configure map_server
