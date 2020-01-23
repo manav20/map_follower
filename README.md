@@ -40,6 +40,7 @@ Run the waypoint.py for waypoint generation.
 rosrun map_follower waypoint.py
 ```
 This script allows the user to use rviz for selecting waypoints, visualize the path and save the waypoints in a CSV file.
+![](demo/waypoint_cropped.jpg)
 <!-- insert rviz picture  -->
 ### 3. Run the code
 In a new terminal execute the run.py file
